@@ -59,6 +59,6 @@ app.post("/failure", function(req,res){
   res.redirect("/");
 })
 
-app.listen(procss.env.PORT || 3000, function(req,res){
+app.listen(process.env.PORT || 3000, function(req,res){
   console.log("Server starting at port 3000");
 })
